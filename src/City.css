@@ -1,0 +1,46 @@
+.city h1 {
+  color: #ec6e4c;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 13px;
+}
+
+.city .current-temperature {
+  color: #ec6e4c;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.city .date-hour {
+  font-size: 11px;
+  margin: 0;
+}
+
+.city .precipitation,
+.city .description,
+.city .wind {
+  font-size: 13px;
+  margin: 0;
+}
+
+.city h1,
+.city .current-temperature,
+.city .date-hour,
+.city .precipitation,
+.city .description,
+.city .wind {
+  text-align: left;
+}
+
+.city .description::first-letter {
+  text-transform: capitalize;
+}
+
+.city .main-icon {
+  bottom: 5px;
+  left: 40px;
+  position: relative;
+  width: 74px;
+}

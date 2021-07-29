@@ -1,0 +1,21 @@
+.search-button,
+.current-location-button {
+  background-color: #ebf7fd;
+  border: 2px solid #ebf7fd;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 4px 10px;
+  transition: all 200ms ease-in-out;
+}
+
+.search-button:hover,
+.current-location-button:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input {
+  border: 2px solid #ebf7fd;
+  border-radius: 10px;
+  padding: 4px 10px;
+}
